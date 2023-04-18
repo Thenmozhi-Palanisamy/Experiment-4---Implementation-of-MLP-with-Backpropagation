@@ -194,6 +194,6 @@ Confusion matrix
 Classification report:
 ![image](https://user-images.githubusercontent.com/95198708/232797795-09c55969-a124-4b3e-8cb0-ed5334494a9c.png)
 
-``````
+
 ## RESULT
 Thus, a program to implement Multilayer Perceptron for Multi Classification is successfully created and executed.
