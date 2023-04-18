@@ -121,7 +121,7 @@ Normalize our dataset.
 ## PROGRAM 
 Developed by: Thennmozhi P
 reg num:212221230116
-
+```
 import pandas as pd
 import sklearn
 from sklearn import preprocessing
@@ -134,7 +134,7 @@ df = pd.read_csv('IRIS.csv')
 df.head
 
 names = ['sepal-length','sepal-width','petal-length','petal-width','Class']
-``````
+`
 # Take first 4 columns ans assign them to variable "X"
 X = df.iloc[:,0:4]
 # Take first 5th columns and assign them to variable "Y". Object dtype refers to strings
@@ -168,7 +168,7 @@ print(confusion_matrix(Y_test,predictions))
 print(classification_report(Y_test,predictions))
 
 
-
+``````
 ## OUTPUT 
 First five rows
 ![image](https://user-images.githubusercontent.com/95198708/232796994-25c5ba49-e6ea-418f-a8d6-bac47e25ba71.png)
@@ -194,6 +194,6 @@ Confusion matrix
 Classification report:
 ![image](https://user-images.githubusercontent.com/95198708/232797795-09c55969-a124-4b3e-8cb0-ed5334494a9c.png)
 
-
+``````
 ## RESULT
 Thus, a program to implement Multilayer Perceptron for Multi Classification is successfully created and executed.
