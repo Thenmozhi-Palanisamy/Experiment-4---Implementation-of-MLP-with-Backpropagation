@@ -117,6 +117,7 @@ Normalize our dataset.
 
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
  
+ ``
 ## PROGRAM 
 Developed by: Thennmozhi P
 reg num:212221230116
@@ -133,7 +134,7 @@ df = pd.read_csv('IRIS.csv')
 df.head
 
 names = ['sepal-length','sepal-width','petal-length','petal-width','Class']
-
+``````
 # Take first 4 columns ans assign them to variable "X"
 X = df.iloc[:,0:4]
 # Take first 5th columns and assign them to variable "Y". Object dtype refers to strings
@@ -174,16 +175,22 @@ First five rows
 
 First five rows of x:
 ![image](https://user-images.githubusercontent.com/95198708/232797099-e72c565c-5ff6-42d1-a093-d81a9622b257.png)
+
 First five rows of Y:
 ![image](https://user-images.githubusercontent.com/95198708/232797281-2c8e0570-a184-4527-b263-455456028b52.png)
+
 unique values of y:
 ![image](https://user-images.githubusercontent.com/95198708/232797394-c054b1d5-0c93-4a7a-869f-be0dc78220f9.png)
+
 Transforming Categorical to numerical values:
 ![image](https://user-images.githubusercontent.com/95198708/232797480-79d9173f-59f7-4f57-87b9-753949efc897.png)
+
 Predictions:
 ![image](https://user-images.githubusercontent.com/95198708/232797585-4807b3dc-2098-49dd-80c6-9685ef891042.png)
+
 Confusion matrix
 ![image](https://user-images.githubusercontent.com/95198708/232797715-8e458747-57bd-4ea5-bd8f-af9eb7698017.png)
+
 Classification report:
 ![image](https://user-images.githubusercontent.com/95198708/232797795-09c55969-a124-4b3e-8cb0-ed5334494a9c.png)
 
